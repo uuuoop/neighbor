@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/mobile_navigation"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@+id/navigation_xiaoxi">
+
+    <fragment
+            android:id="@+id/navigation_xiaoxi"
+            android:name="com.example.myapplication3.ui.xiaoxi"
+            android:label="消息"
+            tools:layout="@layout/fragment_xiaoxi"/>
+
+    <fragment
+            android:id="@+id/navigation_linjv"
+            android:name="com.example.myapplication3.ui.linjv"
+            android:label="邻居"
+            tools:layout="@layout/fragment_linjv"/>
+
+    <fragment
+            android:id="@+id/navigation_guangchang"
+            android:name="com.example.myapplication3.ui.guangchang"
+            android:label="广场"
+            tools:layout="@layout/fragment_guangchang"/>
+
+    <fragment
+            android:id="@+id/navigation_my"
+            android:name="com.example.myapplication3.ui.my"
+            android:label="我的"
+            tools:layout="@layout/fragment_my"/>
+</navigation>
